@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,7 +7,7 @@
     <title>Home | anaksepaku</title>
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="bg-white text-black font-sans">
+  <body class="bg-white dark:bg-black text-black font-sans">
     <nav class="p-5 px-10 border-trasparent">
       <div class="flex justify-between items-center">
         <div class="flex items-center space-x-4">
@@ -22,7 +22,7 @@
         <div class="md:hidden">
           <button id="menu-btn" class="text-2xl">☰</button>
         </div>
-        <div class="hidden md:flex items-center space-x-4">
+        <div class="hidden md:flex text-gray-500 items-center space-x-4">
           <a href="#" class="text-lg">Discord</a>
           <a
             href="https://anaksepaku.my.id/wiki/index.php/Main_Page"
@@ -40,7 +40,9 @@
             class="px-4 py-2 border rounded-full"
           />
           <button class="px-4 py-2 border rounded-lg">Sign in</button>
-          <button class="px-4 py-2 bg-black text-white rounded-lg"></button>
+          <button class="px-4 py-2 bg-black text-white rounded-lg">
+            darkmode
+          </button>
         </div>
       </div>
       <div id="mobile-menu" class="hidden flex-col mt-2 space-y-2 md:hidden">
