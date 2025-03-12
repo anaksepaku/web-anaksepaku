@@ -1110,9 +1110,6 @@
   .bg-\[var\(--my_variable\)\] {
     background-color: var(--my_variable);
   }
-  .bg-black {
-    background-color: var(--color-black);
-  }
   .bg-red-500 {
     background-color: var(--color-red-500);
   }
@@ -1456,9 +1453,6 @@
   }
   .text-gray-600 {
     color: var(--color-gray-600);
-  }
-  .text-white {
-    color: var(--color-white);
   }
   .capitalize {
     text-transform: capitalize;
